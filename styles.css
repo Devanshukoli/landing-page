@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 20px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    
+}
+
+
+.header-links > li {
+    font-size: 18px;
+    color: #e5e7eb;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
