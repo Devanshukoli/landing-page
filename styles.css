@@ -1,38 +1,76 @@
 * {
-    font-family: 'Roboto';
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 900;
-    padding: 20px;
-    margin: 12px;
-    cursor: pointer;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+  padding: 20px;
+  margin: 12px;
+  cursor: pointer;
 }
 
 .header-links {
-    display: flex;
-    gap: 25px;
-    
+  display: flex;
+  gap: 25px;
 }
 
-
 .header-links > li {
-    font-size: 18px;
-    color: #e5e7eb;
-    cursor: pointer;
+  font-size: 18px;
+  color: #e5e7eb;
+  cursor: pointer;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
+}
+
+.intro {
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 29px;
+  padding: 30px;
+}
+
+.intro-sec-1 {
+  padding: 30px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: f9faf8;
+  font-weight: 900;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.intro-sec-2 {
+  padding: 30px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 7px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 12px;
+  cursor: pointer;
 }
