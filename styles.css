@@ -114,3 +114,21 @@ button {
   margin: 12px;
   padding: 13px;
 }
+
+.brave-words {
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.quote-text {
+  font-weight: light;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+}
