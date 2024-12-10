@@ -74,3 +74,43 @@ button {
   margin-top: 12px;
   cursor: pointer;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 20px;
+  margin: 12px;
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box > img {
+  margin: 12px;
+  padding: 23px;
+  border: 2px solid black;
+}
+
+.box > p {
+  margin: 12px;
+  padding: 13px;
+}
